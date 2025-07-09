@@ -45,10 +45,11 @@ The model is a simple feedforward neural network:
 
 ## 🧾 Prediction Example
 
-The model can predict the class of new tumor data. Example:
+0. The model can predict the class of new tumor data. Example:
+     ```python
+     sample = np.array([10,5,5,3,6,7,7,10]).reshape(1, 8)
+     prediction = model.predict(sample)
 
-sample = np.array([10,5,5,3,6,7,7,10]).reshape(1, 8)
-prediction = model.predict(sample)
 Output is then mapped to:
 
 0 → 2 (Benign)
@@ -83,7 +84,6 @@ The id column is dropped and not used in training.
 Model is trained using only 2 classes.
 
 Final prediction is post-processed to return class label as 2 or 4.
-
 
 
 
