@@ -58,11 +58,11 @@ Output is then mapped to:
 🚀 Getting Started
 1. Clone this repository:
    ```bash
-   git clone https://github.com/erenntorun/breast-cancer-classification.git
+   git clone https://github.com/erenntorun/breast-cancer-classification-with-neural-networks.git
    
 2. Navigate to the project folder:
    ```bash
-   cd breast-cancer-classification
+   cd breast-cancer-classification-with-neural-networks
 
 3. Install dependencies:
    ```bash
@@ -72,7 +72,7 @@ Output is then mapped to:
 
 5. Run the script:
    ```bash
-   python breast_cancer_nn.py
+   python KanserTespiti.py
 
 
 📌 Notes
